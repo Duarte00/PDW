@@ -1,0 +1,68 @@
+Home
+
+Projects
+
+Publications
+
+Supervising Activities
+
+Service
+
+Ph.D. Students
+Explainable AI for Medical Imaging, Cristiano Patrício
+Start Date: 09/2021, End Date: On-going.
+
+M.Sc. Students
+M.Sc. Dissertations
+
+A Zero-shot Learning Method for Recognizing Objects using Low-power Devices,
+Cristiano Patrício
+Start Date: 09/2020, End Date: 06/2021.
+Computer Science, University of Beira Interior.
+
+M.Sc. Projects
+
+Camada de Data Warehouse num Sistema de Big Data, João Marques
+Start Date: 09/2020, End Date: on-going.
+Computer Science, University of Beira Interior.
+Implementação de Funcionalidades eTransfer numa Aplicação Bancária, André Martins
+Start Date: 09/2020, on-going.
+Computer Science, University of Beira Interior.
+Cálculo da Pegada de Carbono a partir de Transações Bancárias, Valeriya Popyuk
+Start Date: 09/2020, End Date: 06/2021.
+Computer Science, University of Beira Interior.
+RIT Evolution - Career Management Platform, Diana Dias
+Start Date: 09/2020, End Date: 06/2021.
+Computer Science, University of Beira Interior.
+
+B.Sc. Graduation Projects
+Deteção de fruta em pomares, José Costa (02/2021 - 07/2021)
+Computer Science, University of Beira Interior.
+Design/Implementação de Plataforma Web, Daniel Lopes (02/2021 - 07/2021)
+Host Company: Inklusion.
+Computer Engineering, Polytechnic Institute of Viseu.
+Dinamização Digital da Empresa, Hugo Nogueira (02/2021 - 07/2021)
+Host Company: Casas do Pátio.
+Computer Engineering, Polytechnic Institute of Viseu.
+Medição de distâncias entre pedestres, Rafael Oliveira (02/2021 - 06/2021)
+Host Company: TOMIWORLD.
+Computer Engineering, Polytechnic Institute of Viseu.
+Reconhecimento de Raças de Cães a partir de Imagens, Francisco Pereira (02/2021 - 06/2021)
+Computer Science, University of Beira Interior.
+Deteção da utilização de máscara facial em ambientes de videovigilância, Carlos Martins (02/2021 06/2021)
+Computer Science, University of Beira Interior.
+Desenvolvimento de uma aplicação para a visualização do processo de treino de uma rede neuronal,
+Francisco Rua (02/2021 - 06/2021)
+Computer Science, University of Beira Interior.
+Tracking de humanos usando estratégias de aprendizagem por reforço, Francisco Pinheira (02/2020 06/2020)
+Computer Science, University of Beira Interior.
+Avaliação do Desempenho de Unidades de Processamento de Visão Computacional, Edgar Daniel
+(02/2020 - 06/2020)
+Computer Science, University of Beira Interior.
+Deteção de Lutas em Vídeos de Vídeo-vigilância, João Fernandes (02/2019 - 06/2019)
+Computer Science, University of Beira Interior.
+Deteção de Quedas em Vídeos de Vídeo-vigilância, António Sousa (02/2019 - 06/2019)
+Computer Science, University of Beira Interior.
+Plain Academic
+
+
