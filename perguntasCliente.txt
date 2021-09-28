@@ -2,21 +2,34 @@ Perguntas
 ------------------------------------
 
 
-->Para quem se destina a pagina
+->Para quem se destina a pagina - Investigadores e Alunos Especie de CV (Portfolio) 
 
-->OnePage ou diferentes páginas
+->OnePage ou diferentes páginas - Diferentes páginas
 
-->As listas como prefere que sejam feitas?
+->As listas como prefere que sejam feitas? - Em menus, distribuido por calendário
 	Em lista mesmo ou podemos decidir a forma de disponibilizamento dessas listas 
 
 
-->Preferencia no idioma de todo o web site (ingles ou portugues)
+->Preferencia no idioma de todo o web site (ingles ou portugues) - Inglês
 
-->Exixte ou nao prioridade no aparecimento da informaçao por ordem
+->Existe ou nao prioridade no aparecimento da informaçao por ordem - Notícias (artigos, prémio, projeto financiado por x), Biografia, Nome
 
-->Pode disponibilizar fotos de perfil e outros dados pessoais 
+->Pode disponibilizar fotos de perfil e outros dados pessoais - Fícticio, biografia ficticia
 
 ->Podemos associar entidades ao perfil? Por o logo da UBI no canto superior
-  direito da pagina
+  direito da pagina - Logotipo que não seja da universidade
+
+
+
+MENU
+
+
+--APA 6TH HOME RESEARCH GUIDES AT UTICA COLLEGE--  (publicações) hiperligações
+
+
+Orientações - Dividir por secção de alunos que estão a ser orientados
+
+
+
 
 -> O que é esperado do relat
