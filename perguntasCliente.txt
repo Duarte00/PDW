@@ -19,3 +19,4 @@ Perguntas
 ->Podemos associar entidades ao perfil? Por o logo da UBI no canto superior
   direito da pagina
 
+-> O que é esperado do relat
