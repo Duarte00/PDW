@@ -16,5 +16,6 @@ Perguntas
 
 ->Pode disponibilizar fotos de perfil e outros dados pessoais 
 
-->teste shfgahfgas hfgsahgfvas fasghjgfsahfas
+->Podemos associar entidades ao perfil? Por o logo da UBI no canto superior
+  direito da pagina
 
