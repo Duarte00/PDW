@@ -38,6 +38,9 @@ li {
 .logo {
     max-width: 7vw;
     max-height: 7vw;
+	min-height: 6vw;
+	min-width: 6vw;
+	
 }
 
 .logo img {
@@ -154,4 +157,89 @@ nav {
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
+.linhaMenu{
+	height:3px;
+	border:0;
+	color: var(--lightblue) ;
+	background-color: var(--lightblue) ;
+	border-bottom: $separator-size $separator-border-style $separator-border-color;
+    width: 0;
+	animation: separator-width 1.5s ease-out forwards;
+}
+
+@keyframes separator-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 /* End Navigation Bar*/
+
+
+/* Start Intro Name and Description*/
+
+.h2HomePage{
+	color: var(--lightblue) ;
+	margin-top:10rem;
+	margin-bottom:.5rem;
+	margin-left:2rem;
+	font-family:var(--bs-font-sans-serif);
+	font-weight:500;
+	font-stretch: expanded;
+	font-size:calc(20px + 4vw);
+	
+}
+
+.texto1{
+	color: white ;
+	margin-left:2rem;
+	margin-top:2rem;
+	font-size:calc(12px + 1vw);
+	margin-right:3rem;
+	
+	
+}
+
+.texto2{
+	color: white ;
+	margin-left:2rem;
+	margin-top:1rem;
+	font-size:calc(10px + .5vw);
+	margin-right:3rem;
+}
+
+@media (min-width: 768px) {
+  .intro-container2 {
+    padding-left: 65px;
+	margin-left: 5rem;
+    margin-right: 6.5rem;
+  }
+  
+@media (max-width: 991px) {
+  .intro-container2 {
+    padding-left: 15px;
+    padding-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.intro-container1{
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%
+	position:relative;
+	width:100%;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	}
+	
+
+
+/* End Intro Name and Description*/
+
+
