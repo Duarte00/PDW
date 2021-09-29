@@ -17,6 +17,8 @@ html, body {
     overflow-x: hidden;
     background-color: var(--darkblue);
     width: 100vw;
+    /* Temp font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -119,6 +121,7 @@ nav {
         flex-direction: column;
         align-items: center;
         width: 100vw;
+        height: 90vh;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -158,7 +161,7 @@ nav {
     transform: rotate(45deg) translate(-5px,-6px);
 }
 
-.linhaMenu{
+.menu-line{
 	height:3px;
 	border:0;
 	color: var(--lightblue) ;
@@ -182,66 +185,49 @@ nav {
 
 /* Start Intro Name and Description*/
 
-.h2HomePage {
-	color: var(--lightblue) ;
-	margin-top: 10rem;
-	margin-bottom: .5rem;
-	margin-left: 2rem;
-	font-family: var(--bs-font-sans-serif);
-	font-weight: 500;
-	font-stretch: expanded;
-	font-size: calc(20px + 4vw);
+#homepage {
+    display: flex;
 }
 
-.texto1 {
-	color: white; /* TODO Change color to the exact white used in the mockup */
-	margin-left:2rem;
-	margin-top:2rem;
-	font-size:calc(12px + 1vw);
-	margin-right:3rem;
-	
+.hello-container {
+    color: var(--lightblue);
+    margin: 15vh 10vw 5vh 15vw;
+    width: 95vw;
 }
 
-.texto2{
-	color: white ; /* TODO Change color to the exact white used in the mockup */
-	margin-left: 2rem;
-	margin-top: 1rem;
-	font-size: calc(10px + .5vw);
-	margin-right: 3rem;
+.hello-container h3 {
+    font-size: 1.3rem;
+}
+.name-info-container {
+    color: var(--white);
+    margin: 5vh 20vw 5vh 5vw;
 }
 
-@media screen and (min-width: 768px) {
-
-  .intro-container2 {
-    padding-left: 65px;
-	margin-left: 5rem;
-    margin-right: 6.5rem;
-  }
+.name-info-container h1 {
+    font-size: 4rem;
+    font-weight: 700;
 }
 
-@media screen and (max-width: 991px) {
+.name-info-container > p {
+    font-size: 0.7em;
+    font-weight: 300;
+}
 
-    .intro-container2 {
-        padding-left: 15px;
-        padding-top: 30px;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+#curly-bracket {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #homepage svg {
+        display: none;
     }
-  
-    .intro-container1 {
-        -ms-flex:0 0 50%;
-        flex:0 0 50%;
-        max-width:50%;
-        position:relative;
-        width:100%;
-        min-height:1px;
-        padding-right:15px;
-        padding-left:15px;
+
+    .hello-container {
+        width: 100vw;
     }
 }
-
 
 /* End Intro Name and Description*/
 
 /* TODO merge media queries */
+
