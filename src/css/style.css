@@ -164,7 +164,7 @@ nav {
 	background-color: var(--lightblue) ;
 	border-bottom: $separator-size $separator-border-style $separator-border-color;
     width: 0;
-	animation: separator-width 1.5s ease-out forwards;
+	animation: separator-width 1.8s ease-out forwards;
 }
 
 @keyframes separator-width {
