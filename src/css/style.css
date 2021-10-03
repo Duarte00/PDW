@@ -15,9 +15,13 @@
 
 html, body {
     overflow-x: hidden;
-    background-color: var(--darkblue);
+    background-image: url('../../img/textura sem opacidade.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0A192F;
     width: 100vw;
-    /* Temp font */
+    height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -65,7 +69,6 @@ nav {
     justify-content: space-around;
     width: 35%;
     z-index: inherit;
-    background-color: var(--darkblue);
 }
 
 .nav-links a {
@@ -187,13 +190,39 @@ nav {
 
 #homepage {
     display: flex;
+    margin:20vh 25vh 0vh 25vh;
 }
 
 .hello-container {
     color: var(--lightblue);
-    margin: 15vh 10vw 5vh 15vw;
     width: 95vw;
+    display: table-cell;
 }
+.side-container {
+    background-color:#3B948C;
+    width: 0.2vw;
+    height: 1200px;
+    margin-left: 10vw;
+}
+.dot-container{
+    position: absolute;
+    height: 100vh;
+}
+#hello-text{
+    color: var(--lightblue);
+    height: 95vh;
+    font-size: 2rem;
+}
+#hello-text h3{
+    font-size: 2rem;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #62F9D5;
+    border-radius: 50%;
+    position: fixed;
+  }
 
 .hello-container h3 {
     font-size: 1.3rem;
