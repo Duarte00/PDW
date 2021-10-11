@@ -374,19 +374,10 @@ footer {
 }
 
 @media screen and (max-width:699px) {
-    .contact-me {
+    .footer-contents > div {
         text-align: center;
         width: 100%;
     }
-    .follow-me {
-        text-align: center;
-        width: 100%;
-    }
-    .where-i-am {
-        text-align: center;
-        width: 100%;
-    }
-
     .map div {
         margin: auto;
     }
