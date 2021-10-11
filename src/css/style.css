@@ -3,7 +3,10 @@
     --darkblue: #0e1d2f;
     --lightblue: #3b8e81;
     --white: #d8d8d8;
+    --clearblue: #CCD6F6;
+    --verydarkblue: #0B182D;
 }
+
 * {
     margin: 0;
     padding: 0px;
@@ -11,6 +14,7 @@
     font-family: var(--bs-font-sans-serif);
     scroll-behavior: smooth;
 }
+
 html, body {
     overflow-x: hidden;
     background-image: url('../../img/textura sem opacidade.png');
@@ -22,6 +26,7 @@ html, body {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 a {
     text-decoration: none;
     color: black;
