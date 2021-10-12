@@ -214,7 +214,7 @@ nav {
 #hello-text{
     color: var(--lightblue);
     font-size: 2rem;
-    padding: 10%;
+    margin: 10vh;
 }
 
 #hello-text h3{
@@ -256,15 +256,8 @@ nav {
     #homepage svg {
         display: none;
     }
-    #hello-text {
-        width: 100vw;
-        margin: 20vh;
-    }
-    .side-container{
-        display:none;
-    }
-    .dot-container{
-        display:none;
+    #hello-text{
+        
     }
 }
 
