@@ -19,5 +19,19 @@ const navSlide = () => {
     });
     
 }
+let pos=1;
+function carouselFunction(){
+    document.getElementById("carousel-image").style.backgroundImage="url(../img/"+pos+".png)";
+    document.getElementById("text-carousel-block").getElementsByTagName("h1")[0].innerHTML="Titulo "+pos;
+    if(pos==3){
+        pos=0;
+    }
+    pos++;
+    setTimeout(carouselFunction, 3000);
+}
 
+document.getElementById("carousel-image").onclick = function () {
+    location.href = "./research.html";
+};
+carouselFunction();
 navSlide();
