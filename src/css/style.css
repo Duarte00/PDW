@@ -213,8 +213,8 @@ nav {
 
 #hello-text{
     color: var(--lightblue);
-    height: 95vh;
     font-size: 2rem;
+    padding: 10%;
 }
 
 #hello-text h3{
