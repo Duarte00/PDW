@@ -174,7 +174,12 @@ nav {
     .burger {
         display: block;
     }
+    #text-carousel-block{
+        margin-top: 0;
+    }
 }
+
+
 
 @keyframes navLinkFade {
     from {
@@ -293,11 +298,39 @@ nav {
     #homepage svg {
         display: none;
     }
-    #hello-text{
-        
-    }
 }
 
+/*Homepage Carousel*/
+#carousel-image{
+    background-image: url("../../img/1.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0A192F;
+    background-size: contain;
+}
+#carousel-image:hover{
+    cursor:pointer;
+}
+
+#carousel-text{
+    background-color: #0A192F;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 18px;
+    color: var(--white);
+}
+#carousel-text p{
+    font-style: italic;
+}
+#text-carousel-block{
+    margin-top: 10%;
+}
+#section-title-hp{
+    color: var(--white);
+    text-align: center;
+    padding: 5%;
+}
 /* FOOTER */
 /* Responsividade é sexy */
 
@@ -358,3 +391,98 @@ footer {
 }
 
 /* END FOOTER */
+
+/* Publications */
+
+.timeline { 
+    margin: 4em auto;
+    position: relative;
+    max-width: 46em;
+    color: white;
+}
+
+.timeline::before {
+    background-color: var(--white);
+    content: "";
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+}
+
+.timeline-event {
+    position: relative;
+}
+
+.timeline-event:hover > .timeline-event-icon {
+    transform: rotate(-45deg);
+    background-color: var(--white);
+}
+
+.timeline-event:hover > .timeline-event-thumbnail {
+    box-shadow: inset 40em 0 0 0 var(--white);
+}
+
+.timeline-event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 80%;
+}
+
+.timeline-event-copy > h3 {
+    font-size: 1.75em;
+}
+
+.timeline-event-copy > h4 {
+    font-size: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+.timeline-event-copy > strong {
+    font-weight: 700;
+}
+
+.timeline-event-copy > p:not(.timeline-event-thumbnail) {
+    padding-bottom: 1.2em;
+}
+
+.timeline-event-icon {
+    transition: 0.2s ease-in;
+    transform: rotate(45deg);
+    background-color: var(--white);
+    outline: 5px solid var(--lightblue);
+    display: block;
+    margin: 0.5em 0.5em 0.5em -0.5em;
+    position: absolute;
+    top: 0;
+    left: -0.5em;
+    width: 1em;
+    height: 1em;
+    margin-left: 0px;
+}
+
+.timeline-event-thumbnail {
+    box-shadow: inset 0 0 0 0em;
+    transition: box-shadow 0.5 ease-in 0.1s;
+    color: var(--darkblue);
+    font-size: 0.75em;
+    background-color: var(--white);
+    display: inline-block;
+    margin-bottom: 1.2em;
+    padding: 0.25em 1em 0.2em 1em;
+
+}
+
+
+@media screen and (max-width:799px) {
+    .timeline::before {
+        display: none;
+    }
+    .timeline-event-icon { 
+        display: none;
+    }
+}
