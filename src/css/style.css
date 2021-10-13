@@ -270,6 +270,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0A192F;
+    background-size: contain;
 }
 #carousel-image:hover{
     cursor:pointer;
