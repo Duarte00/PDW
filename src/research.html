@@ -17,25 +17,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </head>
 
+  <script>
+    jQuery(document).on('scroll', function(){
+      jQuery('#Scroll_Div').css("left", Math.max(100 - 0.2*window.scrollY, 1) + "vw");
+      })
+  </script>
+
   <style>
 
-    /* width */
     ::-webkit-scrollbar {
     width: 10px;
     }
 
-    /* Track */
     ::-webkit-scrollbar-track {
       box-shadow: inset 0 0 5px grey; 
       background:whitesmoke; 
     }
     
-    /* Handle */
     ::-webkit-scrollbar-thumb {
       background: #0B182D; 
     }
 
-    /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
       background: #555; 
     }
@@ -83,6 +85,17 @@
       </center>
 
       <img src="../img/BACKGROUND.png" id="r_background">
+
+      <div class="Scroll_Div">
+        <b><p id="Scroll_Text">2020</p></b>
+      </div>
+
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <img src="../img/BACKGROUND.png" id="r_background" style="padding-top: 100rem;">
     </main>
 
     </main>
