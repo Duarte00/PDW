@@ -27,7 +27,10 @@ html, body {
     height: 100%;
 }
 
+#index_body{
 
+    background-image: url('../../img/textura\ sem\ opacidade.png');
+}
 
 /* Research Page CSS Edition Style */
 
@@ -62,6 +65,26 @@ html, body {
 
 }
 
+#Scroll_Text{
+
+    margin: 0;
+    padding-top: 0;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 80rem;
+    left: 100vw;
+}
+
+#Scroll_Div{
+
+
+    margin: 0;
+    padding: 0;
+    height: 100vw;
+    overflow-x: hidden;
+}
 
 /*END OF RESEARCH*/
 
