@@ -399,6 +399,7 @@ footer {
     position: relative;
     max-width: 46em;
     color: white;
+    margin-top: 10vh;
 }
 
 .timeline::before {
@@ -442,8 +443,13 @@ footer {
     margin-bottom: 1.2em;
 }
 
-.timeline-event-copy > strong {
-    font-weight: 700;
+.timeline-event-copy > h4 > a {
+    font-weight: 500;
+    color: var(--white);
+}
+
+.timeline-event-copy > h4 > a:hover {
+    color: var(--lightblue);
 }
 
 .timeline-event-copy > p:not(.timeline-event-thumbnail) {
