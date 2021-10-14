@@ -417,6 +417,12 @@ footer {
 
 /* Publications */
 
+/* TODO fix*/
+
+#publications-page {
+    background-image: url(../../img/textura\ sem\ opacidade.png);
+}
+
 .timeline { 
     margin: 4em auto;
     position: relative;
@@ -482,13 +488,13 @@ footer {
 .timeline-event-icon {
     transition: 0.2s ease-in;
     transform: rotate(45deg);
-    background-color: var(--white);
+    background-color: var(--darkblue);
     outline: 5px solid var(--lightblue);
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
     top: 0;
-    left: -0.5em;
+    left: 1.5em;
     width: 1em;
     height: 1em;
     margin-left: 0px;
@@ -505,6 +511,14 @@ footer {
     padding: 0.25em 1em 0.2em 1em;
 
 }
+
+@media screen and (max-width:499) {
+    .timeline {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+
 /* Main page Research END*/
 .titleResearch {
     text-align: center;

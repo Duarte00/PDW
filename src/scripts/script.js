@@ -1,4 +1,6 @@
 const navSlide = () => {
+
+    console.log("oi")
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
     const navLinks = document.querySelectorAll('.nav-links li');
@@ -19,6 +21,7 @@ const navSlide = () => {
     });
     
 }
+
 let pos=1;
 function carouselFunction(){
     document.getElementById("carousel-image").style.backgroundImage="url(../img/"+pos+".png)";
@@ -34,7 +37,6 @@ document.getElementById("carousel-image").onclick = function () {
     location.href = "./research.html";
 };
 carouselFunction();
-navSlide();
 
 function myFunction(pos) {
     document.getElementById("image").style.backgroundImage =
@@ -43,22 +45,24 @@ function myFunction(pos) {
     let lis = document.getElementById("project-list").getElementsByTagName('li');
     switch (pos) {
         case 1:
-            document.getElementById("project-title").innerHTML = "Publicação I";
+            document.getElementById("project-title").innerHTML = "Publicaï¿½ï¿½o I";
             lis[0].innerHTML = "Projecto 1";
             lis[1].innerHTML = "Projecto I";
             lis[2].innerHTML = "Projecto 1";
             break;
         case 2:
-            document.getElementById("project-title").innerHTML = "Publicação II";
+            document.getElementById("project-title").innerHTML = "Publicaï¿½ï¿½o II";
             lis[0].innerHTML = "Projecto 2";
             lis[1].innerHTML = "Projecto II";
             lis[2].innerHTML = "Projecto 2";
             break;
         case 3:
-            document.getElementById("project-title").innerHTML = "Publicação III";
+            document.getElementById("project-title").innerHTML = "Publicaï¿½ï¿½o III";
             lis[0].innerHTML = "Projecto 3";
             lis[1].innerHTML = "Projecto III";
             lis[2].innerHTML = "Projecto 3";
             break;
     }
 }
+
+navSlide();
