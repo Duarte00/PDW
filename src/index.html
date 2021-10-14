@@ -28,7 +28,6 @@
           </div>
         </a>
         <ul class="nav-links">
-          
           <li>
             <a href="publications.html" class="active-link">Publications</a>
           </li>
@@ -72,26 +71,75 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4" id="carousel-image">
-        </div>
+        <div class="col-md-4" id="carousel-image"></div>
         <div class="col-md-8" id="carousel-text">
-          <div id="text-carousel-block"><h1>Titulo</h1>
-            <p>"eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim"</p>
+          <div id="text-carousel-block">
+            <h1>Titulo</h1>
+            <p>
+              "eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim"
+            </p>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12" id="section-title-hp">
-          <h1>Research</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
+      <div class="titleResearch">Research</div>
+          <hr class="hr1" />
+          <hr class="hr3" />
+          <hr class="hr2" />
 
+          <div class="researchContainer">
+              <h1>Titulo</h1>
+              <h2>Sub-titulo</h2>
+              <br />
+              <img class="researchImg" src="../img/1.png" />
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-8">
-        </div>
+        <div class="researchContainer2">
+          <h1>Titulo</h1>
+          <h2>Sub-titulo</h2>
+          <br />
+          <img class="researchImg2" src="../img/1.png" />
+          <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+          </p>
+      </div>
+
+
+
+      <div class="titleTeaching">Teaching</div>
+      <hr class="hr1" />
+      <hr class="hr3" />
+      <hr class="hr2" />
+
+      <div class="teachingContainer">
+          <h2><u class="teachingUnderline">Sub-titulo</u></h2>
+          <br />
+          <p>
+              Web Informatic    |   Programming Course  |   1º year
+          </p>
+          <p>
+              Web Informatic    |   Programming Course  |   1º year
+          </p>
+          <p>
+              Web Informatic    |   Programming Course  |   1º year
+          </p>
+          <p>
+              Web Informatic    |   Programming Course  |   1º year
+          </p>
       </div>
       <footer>
         <center>
@@ -134,5 +182,25 @@
       </footer>
     </div>
     <script src="scripts/script.js"></script>
+    <script>
+      let pos = 1;
+      function carouselFunction() {
+        document.getElementById("carousel-image").style.backgroundImage =
+          "url(../img/" + pos + ".png)";
+        document
+          .getElementById("text-carousel-block")
+          .getElementsByTagName("h1")[0].innerHTML = "Titulo " + pos;
+        if (pos == 3) {
+          pos = 0;
+        }
+        pos++;
+        setTimeout(carouselFunction, 3000);
+      }
+
+      document.getElementById("carousel-image").onclick = function () {
+        location.href = "./research.html";
+      };
+      carouselFunction();
+    </script>
   </body>
 </html>

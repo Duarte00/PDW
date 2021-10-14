@@ -19,7 +19,7 @@
 
 html, body {
     overflow-x: hidden;
-    background-color: var(--darkblue);
+    background-image: url('../../img/oceano.png');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,9 @@ html, body {
 }
 
 
-
+main{
+    background-image: url('../../img/textura\ sem\ opacidade.png');
+}
 /* Research Page CSS Edition Style */
 
 #research_body{
@@ -476,7 +478,300 @@ footer {
     padding: 0.25em 1em 0.2em 1em;
 
 }
+.researchContainer {
+    color: var(--white);
+    margin: 5vh 10vw 5vh 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
 
+.researchContainer {
+    color: var(--white);
+    margin: 5vh 10vw 5vh 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
+
+.researchContainer h2 {
+    font-size: 2rem;
+}
+
+    .researchContainer p {
+        color: var(--white);
+        margin: 5vh 40vw 5vh 5vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+.researchImg {
+    float: right;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: -15rem;
+    border: 5px solid white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .researchImg {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+
+.researchContainer {
+    color: var(--white);
+    margin: 5vh 10vw 5vh 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
+
+.researchContainer h2 {
+    font-size: 2rem;
+}
+
+    .researchContainer p {
+        color: var(--white);
+        margin: 5vh 40vw 5vh 5vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+.researchImg {
+    float: right;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: -15rem;
+}
+
+@media only screen and (max-width: 1050px) {
+    .researchContainer p {
+        color: var(--white);
+        margin: 5vh 1vw 5vh 1vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+    .researchImg {
+        float:inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .researchContainer p {
+        color: var(--white);
+        margin: 5vh 1vw 5vh 1vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+    .researchImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .researchImg {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+.researchContainer2 h2 {
+    font-size: 2rem;
+}
+
+.researchContainer2 p {
+    color: var(--white);
+    margin: 5vh 5vw 5vh 40vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
+
+.researchImg2 {
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: -15rem;
+    border: 5px solid white;
+}
+
+@media only screen and (max-width: 1050px) {
+    .researchContainer2 p {
+        color: var(--white);
+        margin: 5vh 1vw 5vh 1vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+    .researchImg2 {
+        float: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .researchImg2 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+
+.researchContainer2 {
+    color: var(--white);
+    margin: 5vh 10vw 5vh 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1050px) {
+    .researchContainer2 p {
+        color: var(--white);
+        margin: 5vh 1vw 5vh 1vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+    }
+
+    .researchImg2 {
+        float: inherit;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+/* Main page Research END*/
+.titleResearch {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-top:5%;
+}
+
+.hr1 {
+    color: var(--white);
+    opacity: 1;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.hr2 {
+    color:var(--white);
+    opacity: 1;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.hr3 {
+    color: var(--white);
+    opacity: 0;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Main page Teaching */
+.titleTeaching {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-top: 5rem;
+}
+
+
+
+.teachingContainer {
+    color: var(--white);
+    margin: 5vh 10vw 5vh 10vw;
+    text-align: justify;
+    text-justify: inter-word;
+    position: relative;
+    display: inline-block;
+}
+
+    .teachingContainer p {
+        color: var(--white);
+        margin: 1vh 10vw 5vh 10vw;
+        text-align: justify;
+        text-justify: inter-word;
+        position: relative;
+        display: inline-block;
+        font-weight: 700;
+    }
+
+/* Main page Teaching END */
 
 @media screen and (max-width:799px) {
     .timeline::before {
