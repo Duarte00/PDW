@@ -28,7 +28,6 @@ html, body {
 }
 
 #index_body{
-
     background-image: url('../../img/textura\ sem\ opacidade.png');
 }
 
@@ -354,6 +353,7 @@ nav {
     text-align: center;
     padding: 5%;
 }
+
 /* FOOTER */
 /* Responsividade é sexy */
 
@@ -728,8 +728,6 @@ footer {
         margin-top: 1rem;
     }
 }
-
-oooooooooooohhh  yeeaaaa
 
 .researchContainer2 {
     color: var(--white);
