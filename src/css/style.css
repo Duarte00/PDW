@@ -765,10 +765,6 @@ main {
   padding-bottom: 30px;
 }
 
-
-
-
-
 /* Main page Teaching END */
 
 /* Students */
@@ -779,19 +775,37 @@ main {
 }
 
 #students_page main {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
 
+.cicle_container > h2{
+  color: var(--white);
+  padding-bottom: 50px;
+  text-align: center;
+}
 
+.project_info {
+  display: table-cell;
+}
 
+.project_info > p > a {
+  color: var(--white);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.project_info > p > a:hover {
+  color: var(--lightblue);
+}
+
+.project_info > p {
+  color: var(--white);
+}
 
 /* Students END*/
 
 
-/* Teaching */
 
-
-/* Teaching END*/
 
 @media screen and (max-width: 799px) {
   .timeline::before {
