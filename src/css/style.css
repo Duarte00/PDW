@@ -29,6 +29,16 @@ body {
   height: 100%;
 }
 
+/* INDEX */
+
+#index_body main {
+  margin-top: 10vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
 /* Research Page CSS Edition Style */
 
 #research_body {
