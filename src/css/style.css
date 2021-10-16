@@ -29,11 +29,35 @@ body {
   height: 100%;
 }
 
+.main{
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    background:whitesmoke; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #0B182D; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 /* Research Page CSS Edition Style */
 
 #research_body {
   background-color: #f9fbff;
-  background-image: url("../../img/oceano.png");
+  background-image: url("../../img/oceano.png"), url("../../img/BACKGROUND.png");
+
 }
 
 #horizontal_menu {
@@ -54,10 +78,6 @@ body {
   word-break: break-all;
 }
 
-#r_background {
-  padding-top: 25%;
-}
-
 #Scroll_Text {
   margin: 0;
   padding-top: 0;
@@ -74,6 +94,18 @@ body {
   padding: 0;
   height: 100vw;
   overflow-x: hidden;
+}
+
+#research_text_box{
+
+  position: absolute;
+  top:40%;
+  left: 60%;
+}
+
+#research_box{
+
+  position: relative;
 }
 
 /*END OF RESEARCH*/
