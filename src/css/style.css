@@ -828,6 +828,15 @@ footer {
 }
 /* Students END*/
 
+
+/* Teaching */
+
+#containerTeaching{
+  margin: 0vh 0vw 0vh 10vw;
+}
+
+/* Teaching END*/
+
 @media screen and (max-width: 799px) {
   .timeline::before {
     display: none;
