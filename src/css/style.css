@@ -508,7 +508,6 @@ margin-top: 10%;
   opacity: 0.74;
 }
 
-
 /* End RESEARCH*/
 
 /* Publications */
@@ -712,7 +711,6 @@ margin-top: 10%;
   font-size: 1em;
   font-weight: 700;
   color: var(--darkblue);
-
 }
 
 .project_info > p > a:hover {
