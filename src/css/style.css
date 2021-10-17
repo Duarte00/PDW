@@ -405,43 +405,16 @@ margin-top: 10%;
   margin-top: 5vh;
 }
 
+.research_logo {
+  width: 4%;
+  padding-right: 15px;
+}
+
 .index_research {
   text-align: center;
   font-size: 2.5rem;
   color: var(--white);
   margin-top: 5%;
-}
-
-.hr1 {
-  color: white;
-  opacity: 1;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 40%;
-  margin-right: 40%;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.hr2 {
-  color: white;
-  opacity: 1;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 35%;
-  margin-right: 35%;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.hr3 {
-  color: white;
-  opacity: 0;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 
 .index_research_container {
@@ -719,7 +692,7 @@ margin-top: 10%;
   margin: 0.5em 0.5em 0.5em -0.5em;
   position: absolute;
   top: 0;
-  left: 1.5em;
+  left: -0.5em;
   width: 1em;
   height: 1em;
   margin-left: 0px;
