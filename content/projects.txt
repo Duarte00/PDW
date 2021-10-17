@@ -1,7 +1,0 @@
-V2IP: Videomonitoramento para Identificação de Pessoas e Veículos 
-Duration 4 years
-Scope International project funded by Brazilian Ministry of Education through the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
-Description Automated surveillance of video areas of interest can help prevent crimes by recognizing potentially suspicious actions,as well as investigating by analyzing stored videos. Among the main problems faced by video surveillance are the large amount of data to be processed and its quality. This project focuses on the development of scalable and accurate solutions that can process large amounts of data and can be transmitted in low resolution videos, videos containing people and vehicles far from the camera. Among the applications tobe investigated are the identification of people and recognition of license plates in low quality data.
-Responsability Participant
-
-
