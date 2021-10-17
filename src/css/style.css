@@ -334,6 +334,10 @@ footer {
   margin-bottom: 2vh;
 }
 
+#btn-cv:hover {
+  opacity: 0.74;
+}
+
 .index_teaching_container {
   color: var(--white);
   font-size: 1rem;
@@ -460,11 +464,20 @@ margin-top: 10%;
   text-align: center;
 }
 
-#research_container {
+.research_container {
   margin: 0 15vw 0 15vw;
   text-align: justify;
 }
 
+.research_container ul {
+  padding-top: 15px;
+  padding-bottom: 10vh;
+}
+
+.reserch_interest_li {
+  padding-bottom: 15px;
+  list-style-type: disc;
+}
 .research {
     color: var(--darkblue);
 }
@@ -480,7 +493,7 @@ margin-top: 10%;
   line-height: 27px;
 }
 
-#btn_research {
+.btn_research {
   color: var(--white);
   background-color: var(--darkblue);
   border: none;
@@ -491,7 +504,7 @@ margin-top: 10%;
   margin-bottom: 10vh;
 }
 
-#btn_research:hover {
+.btn_research:hover {
   opacity: 0.74;
 }
 
@@ -615,7 +628,6 @@ margin-top: 10%;
   }
 }
 
-
 /* Teaching */
 
 #teaching_page {
@@ -660,21 +672,42 @@ margin-top: 10%;
   padding-bottom: 30px;
 }
 
+.btn_research {
+  color: var(--white);
+  background-color: var(--darkblue);
+  border: none;
+  border-radius: 25px;
+  padding: 8px 18px;
+  line-height: center;
+  margin-top: 1vh;
+  margin-bottom: 8vh;
+}
+
+.btn_research:hover {
+  opacity: 0.74;
+}
+
 /* Main page Teaching END */
 
 /* Students */
 
-#students_page {
-  background-image: url("../../img/textura\ sem\ opacidade.png");
-  text-align: center;
+#students_page main {
+  background-color: var(--white);
+  background-image: url("../../img/oceano.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
-#students_page main {
-  margin-top: 10vh;
+.students_container {
+  margin: 0 15vw 0 15vw;
+  text-align: justify;
+}
+
+.project_info {
+  color: var(--darkblue);
 }
 
 .cicle_container > h2{
-  color: var(--white);
   padding-bottom: 50px;
   text-align: center;
 }
@@ -684,17 +717,22 @@ margin-top: 10%;
 }
 
 .project_info > p > a {
-  color: var(--white);
   font-size: 1em;
   font-weight: 700;
+  color: var(--darkblue);
+
 }
 
 .project_info > p > a:hover {
-  color: var(--lightblue);
+  opacity: 0.74;
 }
 
 .project_info > p {
-  color: var(--white);
+  color: var(--darkblue);
+}
+
+#btn-last { 
+  margin-bottom: 15vh;
 }
 
 /* Students END*/
