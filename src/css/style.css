@@ -1,4 +1,3 @@
-/* TODO Not the exact colors*/
 :root {
   --darkblue: #0a192f;
   --lightblue: #62f9d5;
@@ -32,12 +31,6 @@ body {
   background-color: var(--verydarkblue);
   width: 100vw;
   height: 100%;
-}
-
-/* TODO change color to work with any text */
-::selection {
-  background: var(--lightblue);
-  text-shadow: none;
 }
 
 /* Scrollbar */
