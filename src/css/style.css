@@ -398,10 +398,11 @@ font-style: italic;
 margin-top: 10%;
 }
 
-#section-title-hp{
+.section-title-index{
   color: #62F9D5;
   text-align: center;
   padding: 5%;
+  margin-top: 5vh;
 }
 
 .index_research {
