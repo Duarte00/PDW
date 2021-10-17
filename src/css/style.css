@@ -508,6 +508,7 @@ margin-top: 10%;
   opacity: 0.74;
 }
 
+
 /* End RESEARCH*/
 
 /* Publications */
@@ -630,20 +631,24 @@ margin-top: 10%;
 
 /* Teaching */
 
-#teaching_page {
-  background-image: url("../../img/textura\ sem\ opacidade.png");
+#teaching_page main {
+  background-color: var(--white);
+  background-image: url("../../img/oceano.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
 #teaching_page main {
-  margin-top: 15vh;
   margin-bottom: 25vh;
   text-align: center;
 }
 
 .currently_teaching {
-  color: var(--white);
+  color: var(--darkblue);
   text-align: center;
   padding-bottom: 50px;
+  padding: 20vh 20vw 7vh 20vw;
+
 }
 
 .courses_container {
@@ -655,11 +660,11 @@ margin-top: 10%;
 .course_cicle {
   padding-top: 40px;
   padding-bottom: 40px;
-  color: var(--white);
+  color: var(--darkblue);
 }
 
 .course > h4, .course > p {
-  color: var(--white);
+  color: var(--darkblue);
 }
 
 .course > h4 {
@@ -672,22 +677,10 @@ margin-top: 10%;
   padding-bottom: 30px;
 }
 
-.btn_research {
-  color: var(--white);
-  background-color: var(--darkblue);
-  border: none;
-  border-radius: 25px;
-  padding: 8px 18px;
-  line-height: center;
-  margin-top: 1vh;
-  margin-bottom: 8vh;
+#last_course {
+  padding-bottom: 10vh;
 }
-
-.btn_research:hover {
-  opacity: 0.74;
-}
-
-/* Main page Teaching END */
+/* End Teaching */
 
 /* Students */
 
@@ -709,7 +702,6 @@ margin-top: 10%;
 
 .cicle_container > h2{
   padding-bottom: 50px;
-  text-align: center;
 }
 
 .project_info {
@@ -735,5 +727,5 @@ margin-top: 10%;
   margin-bottom: 15vh;
 }
 
-/* Students END*/
+/* End Students*/
 
